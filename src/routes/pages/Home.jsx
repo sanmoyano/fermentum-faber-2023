@@ -1,7 +1,7 @@
-import { Stack } from "@chakra-ui/react";
+import { HomeLayout } from "../../components/containers/";
 
 const Home = () => {
-    return <Stack height={"100vh"}>Home</Stack>;
+    return <HomeLayout />;
 };
 
 export default Home;

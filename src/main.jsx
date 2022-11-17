@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router-dom";
 
 import theme from "./theme/theme";
 import router from "./router";
+import "./fonts.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
