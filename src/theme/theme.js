@@ -22,6 +22,14 @@ export default extendTheme(theme, {
             600: "#17BDF5",
         },
     },
+    textStyles: {
+        heading: {
+            fontFamily: "Acumin-Pro-Bold-Italic",
+            fontSize: "1rem",
+            textTransform: "uppercase",
+            color: "brand.200",
+        },
+    },
     components: {
         Button: {
             variants: {
