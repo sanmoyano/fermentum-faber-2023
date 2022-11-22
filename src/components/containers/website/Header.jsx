@@ -10,6 +10,7 @@ const Header = () => {
             paddingInline={24}
             position={"absolute"}
             width={"100%"}
+            zIndex={1}
         >
             <Stack
                 alignItems={"center"}
