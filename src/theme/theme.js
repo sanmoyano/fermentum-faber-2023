@@ -29,6 +29,12 @@ export default extendTheme(theme, {
             textTransform: "uppercase",
             color: "brand.200",
         },
+        link: {
+            fontFamily: "Acumin-Pro-Italic",
+            fontSize: "1rem",
+            textTransform: "uppercase",
+            color: "brand.200",
+        },
     },
     components: {
         Button: {

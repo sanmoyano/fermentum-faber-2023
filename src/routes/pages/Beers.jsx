@@ -1,7 +1,7 @@
-import React from "react";
+import { BeerLayout } from "../../components/containers";
 
 const Beers = () => {
-    return <div>Beers</div>;
+    return <BeerLayout />;
 };
 
 export default Beers;

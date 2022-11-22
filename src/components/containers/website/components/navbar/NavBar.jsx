@@ -1,4 +1,4 @@
-import { Stack } from "@chakra-ui/react";
+import { Stack, Link, Icon } from "@chakra-ui/react";
 
 import NavItem from "./NavItem";
 
@@ -15,6 +15,15 @@ const NavBar = () => {
             {navItems.map((item, i) => (
                 <NavItem key={i} name={item.name} path={item.path} />
             ))}
+            <Link
+                href="https://pency.app/fermentum"
+                sx={{ textDecoration: "underline" }}
+                target={"_blank"}
+                textStyle={"link"}
+            >
+                shop
+                <Icon as={""} />
+            </Link>
         </Stack>
     );
 };

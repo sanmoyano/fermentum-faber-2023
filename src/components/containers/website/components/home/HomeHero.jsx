@@ -11,7 +11,7 @@ const HomeHero = () => {
     ];
 
     return (
-        <StackBackground bgImage={"portada_home"}>
+        <StackBackground bgImage={"portada_home.jpg"}>
             {info.map((title, i) => (
                 <StackBackgroundInfo
                     key={i}
