@@ -1,7 +1,6 @@
-import React from "react";
-
+import { WhereLayout } from "../../components/containers";
 const Where = () => {
-    return <div>Where</div>;
+    return <WhereLayout />;
 };
 
 export default Where;

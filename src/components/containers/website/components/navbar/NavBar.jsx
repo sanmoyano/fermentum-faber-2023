@@ -3,6 +3,7 @@ import { Stack, Link, Icon } from "@chakra-ui/react";
 import NavItem from "./NavItem";
 
 const navItems = [
+    { name: "inicio", path: "/" },
     { name: "cervezas", path: "/cervezas" },
     { name: "servicios", path: "/servicios" },
     { name: "donde", path: "/donde" },

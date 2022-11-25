@@ -2,7 +2,7 @@ import { StackBackground, StackBackgroundInfo } from "../../../../decorators";
 
 const BeersHero = () => {
     return (
-        <StackBackground bgImage={"portada_beers.png"}>
+        <StackBackground bgImage={"../../../../assets/images/portada_beers.png"}>
             <StackBackgroundInfo
                 beers={
                     "tenemos una gran variedad de estilos, pero los que más se caracterizan son los de tipo ipa"

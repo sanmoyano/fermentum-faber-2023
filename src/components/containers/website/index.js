@@ -6,3 +6,6 @@ export { default as NavBar } from "./components/navbar/NavBar";
 export { default as HomeHero } from "./components/home/HomeHero";
 export { default as MundoFmtm } from "./components/home/MundoFmtm";
 export { default as BeersHero } from "./components/beers/BeersHero";
+export { default as WhereHero } from "./components/where/WhereHero";
+export { default as ServicesHero } from "./components/services/ServicesHero";
+export { default as UsHero } from "./components/us/UsHero";

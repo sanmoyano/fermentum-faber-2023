@@ -1,7 +1,7 @@
-import React from "react";
+import { UsLayout } from "../../components/containers";
 
 const Us = () => {
-    return <div>Us</div>;
+    return <UsLayout />;
 };
 
 export default Us;
