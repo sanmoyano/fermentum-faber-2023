@@ -1,4 +1,4 @@
-import { extendTheme, theme } from "@chakra-ui/react";
+import { color, extendTheme, theme } from "@chakra-ui/react";
 
 export default extendTheme(theme, {
     style: {
@@ -28,6 +28,13 @@ export default extendTheme(theme, {
             fontSize: "1rem",
             textTransform: "uppercase",
             color: "brand.200",
+        },
+        subHeading: {
+            fontFamily: "Acumin-Pro-Italic",
+            fontSize: "1rem",
+            textTransform: "uppercase",
+            color: "brand.200",
+            lineHeight: 1,
         },
         link: {
             fontFamily: "Acumin-Pro-Italic",

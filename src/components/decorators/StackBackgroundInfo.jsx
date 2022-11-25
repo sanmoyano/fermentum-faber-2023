@@ -12,7 +12,7 @@ const StackBackgroundInfo = ({ title, where, services, beers, us }) => {
             >
                 {title}
             </Heading>
-            <Stack alignItems={"center"} justifyContent={"center"} width={"350px"}>
+            <Stack alignItems={"center"} justifyContent={"center"} width={"450px"}>
                 <Text textAlign={"center"} textStyle={"heading"}>
                     {where}
                 </Text>
