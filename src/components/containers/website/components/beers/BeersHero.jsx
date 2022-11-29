@@ -4,8 +4,8 @@ const BeersHero = () => {
     return (
         <StackBackground bgImage={"../../../../assets/images/portada_beers.png"}>
             <StackBackgroundInfo
-                beers={
-                    "tenemos una gran variedad de estilos, pero los que más se caracterizan son los de tipo ipa"
+                info={
+                    "Tenemos una gran variedad de estilos, pero los que más se caracterizan son los de tipo ipa."
                 }
                 title={"nuestros estilos"}
             />

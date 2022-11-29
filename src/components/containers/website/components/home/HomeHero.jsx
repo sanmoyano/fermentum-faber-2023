@@ -4,22 +4,14 @@ const HomeHero = () => {
     const info = [
         {
             title: "fermentum faber",
-            where: "somos una reconocida fábrica de cervezas de córdoba",
-            services: "atendemos tus necesidades, conoce nuestros servicios comerciales",
-            beers: "conoce todo sobre nuestros estilos",
+            info: "Somos una reconocida fábrica de cervezas de Córdoba. Atendemos tus necesidades, conoce nuestros servicios comerciales. Conoce todo sobre nuestros estilos.",
         },
     ];
 
     return (
         <StackBackground bgImage={"../../../../assets/images/portada_home.jpg"}>
             {info.map((title, i) => (
-                <StackBackgroundInfo
-                    key={i}
-                    beers={title.beers}
-                    services={title.services}
-                    title={title.title}
-                    where={title.where}
-                />
+                <StackBackgroundInfo key={i} info={title.info} title={title.title} />
             ))}
         </StackBackground>
     );
