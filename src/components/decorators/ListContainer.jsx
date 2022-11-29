@@ -14,7 +14,7 @@ const ListContainer = ({ title, itemArray }) => {
             >
                 {itemArray.map((item, i) => (
                     <Link key={i} to={item.route}>
-                        <GridItem height={"320px"}>
+                        <GridItem height={"300px"}>
                             <Stack
                                 alignItems={"center"}
                                 bgColor={"brand.100"}
