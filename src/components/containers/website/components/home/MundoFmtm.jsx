@@ -1,30 +1,15 @@
-import { Stack, Text, Grid, GridItem } from "@chakra-ui/react";
+import { ListContainer } from "../../../../decorators";
 
+const sections = [
+    { title: "nuestros estilos", img: "", route: "/cervezas" },
+    { title: "servicios comerciales", img: "", route: "/servicios" },
+    { title: "donde encontrarnos", img: "", route: "/donde" },
+    { title: "contacto", img: "", route: "" },
+    { title: "alquiler de choperas", img: "", route: "" },
+    { title: "tienda online", img: "", route: "" },
+];
 const MundoFmtm = () => {
-    return (
-        <Stack p={24}>
-            <Grid gap={"50px"} gridTemplateColumns={"repeat(auto-fit, minmax(320px, 1fr))"}>
-                <GridItem height={"400px"}>
-                    <Text>HOLA</Text>
-                </GridItem>
-                <GridItem>
-                    <Text>HOLA</Text>
-                </GridItem>
-                <GridItem>
-                    <Text>HOLA</Text>
-                </GridItem>{" "}
-                <GridItem height={"320px"}>
-                    <Text>HOLA</Text>
-                </GridItem>
-                <GridItem>
-                    <Text>HOLA</Text>
-                </GridItem>
-                <GridItem>
-                    <Text>HOLA</Text>
-                </GridItem>
-            </Grid>
-        </Stack>
-    );
+    return <ListContainer itemArray={sections} title={"mundo fermentum"} />;
 };
 
 export default MundoFmtm;

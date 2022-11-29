@@ -36,6 +36,11 @@ export default extendTheme(theme, {
             color: "brand.200",
             lineHeight: 1,
         },
+        itemTitle: {
+            fontFamily: "Acumin-Pro-Bold-Italic",
+            fontSize: "2rem",
+            textTransform: "uppercase",
+        },
         link: {
             fontFamily: "Acumin-Pro-Italic",
             fontSize: "1rem",

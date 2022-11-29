@@ -12,19 +12,19 @@ const StackBackgroundInfo = ({ title, where, services, beers, us }) => {
             >
                 {title}
             </Heading>
-            <Stack alignItems={"center"} justifyContent={"center"} width={"450px"}>
-                <Text textAlign={"center"} textStyle={"heading"}>
-                    {where}
-                </Text>
-                <Text textAlign={"center"} textStyle={"heading"}>
-                    {services}
-                </Text>
-                <Text textAlign={"center"} textStyle={"heading"}>
-                    {beers}
-                </Text>
-                <Text textAlign={"center"} textStyle={"heading"}>
-                    {us}
-                </Text>
+            <Stack
+                alignItems={"center"}
+                justifyContent={"center"}
+                lineHeight={1}
+                spacing={4}
+                textAlign={"center"}
+                textStyle={"heading"}
+                width={"450px"}
+            >
+                <Text>{where}</Text>
+                <Text>{services}</Text>
+                <Text>{beers}</Text>
+                <Text>{us}</Text>
             </Stack>
         </Stack>
     );

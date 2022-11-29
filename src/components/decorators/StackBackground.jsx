@@ -1,4 +1,4 @@
-import { Box, Fade } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 import useProgressiveImage from "../../hooks/useProgressiveImage";
 
