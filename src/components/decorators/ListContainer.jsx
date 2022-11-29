@@ -1,6 +1,8 @@
 import { Grid, GridItem, Stack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
+import { ItemGrid, ChakraLink } from "../decorators";
+
 const ListContainer = ({ title, itemArray }) => {
     return (
         <Stack justifyContent={"center"} p={24} spacing={6}>
@@ -12,27 +14,18 @@ const ListContainer = ({ title, itemArray }) => {
                 gridTemplateColumns={"repeat(auto-fit, minmax(320px, 320px))"}
                 justifyContent={"center"}
             >
-                {itemArray.map((item, i) => (
-                    <Link key={i} to={item.route}>
-                        <GridItem height={"300px"}>
-                            <Stack
-                                alignItems={"center"}
-                                bgColor={"brand.100"}
-                                bgImage={item.img}
-                                borderRadius={6}
-                                height={"100%"}
-                                justifyContent={"center"}
-                            >
-                                <Text
-                                    color={"brand.500"}
-                                    textAlign={"center"}
-                                    textStyle={"heading"}
-                                >
-                                    {item.title}
-                                </Text>
-                            </Stack>
-                        </GridItem>
-                    </Link>
+                {itemArray?.map((item, i) => (
+                    <GridItem key={i} height={"300px"}>
+                        {item.route.startsWith("https") ? (
+                            <ChakraLink link={item.route}>
+                                <ItemGrid img={item.img} title={item.title} />
+                            </ChakraLink>
+                        ) : (
+                            <Link to={item.route}>
+                                <ItemGrid img={item.img} title={item.title} />
+                            </Link>
+                        )}
+                    </GridItem>
                 ))}
             </Grid>
         </Stack>
