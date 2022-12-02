@@ -47,6 +47,11 @@ export default extendTheme(theme, {
             textTransform: "uppercase",
             color: "brand.200",
         },
+        body: {
+            fontFamily: "Acumin-Pro",
+            fontSize: "1rem",
+            color: "brand.200",
+        },
     },
     components: {
         Button: {
