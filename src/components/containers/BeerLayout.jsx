@@ -1,8 +1,9 @@
-import { BeersHero } from "./website";
+import { BeersHero, BeerList } from "./website";
 const BeerLayout = () => {
     return (
         <>
             <BeersHero />
+            <BeerList />
         </>
     );
 };

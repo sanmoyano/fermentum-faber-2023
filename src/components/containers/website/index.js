@@ -9,3 +9,4 @@ export { default as BeersHero } from "./components/beers/BeersHero";
 export { default as WhereHero } from "./components/where/WhereHero";
 export { default as ServicesHero } from "./components/services/ServicesHero";
 export { default as UsHero } from "./components/us/UsHero";
+export { default as BeerList } from "./components/beers/BeerList";
