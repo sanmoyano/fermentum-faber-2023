@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Grid, GridItem, Stack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
@@ -14,19 +15,19 @@ const ListContainer = ({ title, itemArray }) => {
                 gridTemplateColumns={"repeat(auto-fit, minmax(320px, 320px))"}
                 justifyContent={"center"}
             >
-                {itemArray?.map((item, i) => (
-                    <GridItem key={i} height={"300px"}>
-                        {item.route.startsWith("https") ? (
-                            <ChakraLink link={item.route}>
-                                <ItemGrid img={item.img} title={item.title} />
-                            </ChakraLink>
-                        ) : (
-                            <Link to={item.route}>
-                                <ItemGrid img={item.img} title={item.title} />
-                            </Link>
-                        )}
-                    </GridItem>
-                ))}
+                    { itemArray?.map((item, i) => (
+                            <GridItem key={i} height={"300px"}>
+                                {item.route.startsWith("https") ? (
+                                    <ChakraLink link={item.route}>
+                                        <ItemGrid img={item.img} title={item.title} />
+                                    </ChakraLink>
+                                ) : (
+                                    <Link to={item.route}>
+                                        <ItemGrid img={item.img} title={item.title} />
+                                    </Link>
+                                )}
+                            </GridItem>
+                        ))}
             </Grid>
         </Stack>
     );

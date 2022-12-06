@@ -4,8 +4,9 @@ const ItemGrid = ({ img, title }) => {
     return (
         <Stack
             alignItems={"center"}
-            bgColor={"brand.100"}
             bgImage={img}
+            bgPosition={"center"}
+            bgSize={"cover"}
             borderRadius={6}
             height={"100%"}
             justifyContent={"center"}
