@@ -10,4 +10,5 @@ export { default as WhereHero } from "./components/where/WhereHero";
 export { default as ServicesHero } from "./components/services/ServicesHero";
 export { default as UsHero } from "./components/us/UsHero";
 export { default as BeerList } from "./components/beers/BeerList";
-export { default as BeerCard } from "./components/beers/BeerCard";
+export { default as ServicesList } from "./components/services/ServicesList";
+export { default as UsList } from "./components/us/UsList";
