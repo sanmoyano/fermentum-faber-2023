@@ -31,7 +31,7 @@ export default extendTheme(theme, {
         },
         subHeading: {
             fontFamily: "Acumin-Pro-Italic",
-            fontSize: "1rem",
+            fontSize: "1.2rem",
             textTransform: "uppercase",
             color: "brand.200",
             lineHeight: 1,
@@ -40,6 +40,13 @@ export default extendTheme(theme, {
             fontFamily: "Acumin-Pro-Bold-Italic",
             fontSize: "2rem",
             textTransform: "uppercase",
+        },
+        title: {
+            fontFamily: "Acumin-Pro",
+            fontSize: "1rem",
+            fontWeight: "bold",
+            textTransform: "uppercase",
+            color: "brand.200",
         },
         link: {
             fontFamily: "Acumin-Pro-Italic",
