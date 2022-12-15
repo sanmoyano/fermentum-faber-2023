@@ -14,7 +14,7 @@ const Form = () => {
             paddingInline={24}
             width={"100%"}
         >
-            <Stack spacing={6}>
+            <Stack spacing={6} width={"25%"}>
                 <Text fontWeight={"bold"} textStyle={"subHeading"}>
                     contacto
                 </Text>

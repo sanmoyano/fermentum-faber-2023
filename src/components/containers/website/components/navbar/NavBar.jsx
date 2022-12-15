@@ -1,4 +1,5 @@
-import { Stack, Link, Icon } from "@chakra-ui/react";
+import { Stack, Link, Icon, Text } from "@chakra-ui/react";
+import { AiFillShopping } from "react-icons/ai";
 
 import NavItem from "./NavItem";
 
@@ -22,8 +23,10 @@ const NavBar = () => {
                 target={"_blank"}
                 textStyle={"link"}
             >
-                shop
-                <Icon as={""} />
+                <Stack alignItems={"center"} direction={"row"}>
+                    <Text>shop</Text>
+                    <Icon as={AiFillShopping} h={5} w={5} />
+                </Stack>
             </Link>
         </Stack>
     );

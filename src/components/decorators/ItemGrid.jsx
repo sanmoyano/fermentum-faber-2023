@@ -1,6 +1,6 @@
 import { Stack, Text } from "@chakra-ui/react";
 
-const ItemGrid = ({ img, title }) => {
+const ItemGrid = ({ img, title, description }) => {
     return (
         <Stack
             alignItems={"center"}
@@ -10,6 +10,7 @@ const ItemGrid = ({ img, title }) => {
             borderRadius={6}
             height={"100%"}
             justifyContent={"center"}
+            p={4}
         >
             <Text
                 color={"brand.500"}
@@ -19,6 +20,7 @@ const ItemGrid = ({ img, title }) => {
             >
                 {title}
             </Text>
+            <Text textAlign={"center"}>{description}</Text>
         </Stack>
     );
 };

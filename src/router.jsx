@@ -1,4 +1,4 @@
-import { createBrowserRouter, Route } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
 import { Home, Beers, Services, Where, Us } from "./routes/";
 import Root from "./routes/Root";

@@ -94,11 +94,19 @@ const BeerList = () => {
                             src={item.img}
                         />
                     </Box>
-                    <Stack height={"200px"} justifyContent={"space-between"} paddingBlock={4}>
-                        <Text>{item.title}</Text>
+                    <Stack height={"200px"} paddingBlock={2}>
+                        <Text color={"brand.500"} textStyle={"itemTitle"}>
+                            {item.title}
+                        </Text>
                         <Text>{item.description}</Text>
-                        <Text>IBU: {item.ibu}</Text>
-                        <Text>ABV: {item.abv}</Text>
+                        <Stack spacing={0}>
+                            <Text color={"brand.500"} textStyle={"heading"}>
+                                IBU: {item.ibu}
+                            </Text>
+                            <Text color={"brand.500"} textStyle={"heading"}>
+                                ABV: {item.abv}
+                            </Text>
+                        </Stack>
                     </Stack>
                 </GridItem>
             ))}

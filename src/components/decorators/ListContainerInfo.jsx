@@ -12,7 +12,11 @@ const ListContainerInfo = ({ itemArray }) => {
             >
                 {itemArray?.map((item, i) => (
                     <GridItem key={i} height={"300px"}>
-                        <ItemGrid img={item.img} title={item.title} />
+                        <ItemGrid
+                            description={item.description}
+                            img={item.img}
+                            title={item.title}
+                        />
                     </GridItem>
                 ))}
             </Grid>

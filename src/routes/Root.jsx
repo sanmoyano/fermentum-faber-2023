@@ -1,5 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
-import { Stack, Text, Textarea } from "@chakra-ui/react";
+import { Outlet } from "react-router-dom";
 
 import { Header, Form, Footer } from "../components/containers/website";
 
