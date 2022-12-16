@@ -6,7 +6,7 @@ const ServicesList = () => {
             title: "atención",
             description:
                 "Atención exclusiva y comunicación directa por whatsapp para coordinar todo lo referente a pedidos, entregas y pagos.",
-            img: "../../../../../assets/images/servicios_atencion.jpg",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/01_atencion.jpg?alt=media&token=ec6b73a1-7689-458b-b9a6-eede5e188c1e",
             route: "",
         },
         {
