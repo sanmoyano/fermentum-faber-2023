@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { Grid, GridItem, Stack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import {motion} from "framer-motion"
 
 import { ItemGrid, ChakraLink } from "../decorators";
 
@@ -16,7 +17,12 @@ const ListContainer = ({ title, itemArray }) => {
                 justifyContent={"center"}
             >
                     { itemArray?.map((item, i) => (
-                            <GridItem key={i} height={"300px"}>
+                            <GridItem key={i} as={motion.div}        
+                                height={"300px"}
+                                initial={{ opacity: 0 }}
+                                viewport={{ once: true }}
+                                whileInView={{ opacity: 1 }}
+                            >
                                 {item.route.startsWith("https") ? (
                                     <ChakraLink link={item.route}>
                                         <ItemGrid img={item.img} title={item.title} />

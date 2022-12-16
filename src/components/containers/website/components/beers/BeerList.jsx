@@ -1,4 +1,5 @@
 import { Box, Grid, GridItem, Image, Stack, Text } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 
 const BeerList = () => {
     const beers = [
@@ -84,7 +85,14 @@ const BeerList = () => {
             p={24}
         >
             {beers.map((item, i) => (
-                <GridItem key={i} height={"auto"}>
+                <GridItem
+                    key={i}
+                    as={motion.div}
+                    height={"auto"}
+                    initial={{ opacity: 0 }}
+                    viewport={{ once: true }}
+                    whileInView={{ opacity: 1 }}
+                >
                     <Box borderRadius={6} height={"450px"}>
                         <Image
                             alt={item.title}

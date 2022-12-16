@@ -1,4 +1,5 @@
 import { Grid, GridItem, Stack, Text } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 
 import { ItemGrid } from "../decorators";
 
@@ -11,7 +12,14 @@ const ListContainerInfo = ({ itemArray }) => {
                 justifyContent={"center"}
             >
                 {itemArray?.map((item, i) => (
-                    <GridItem key={i} height={"300px"}>
+                    <GridItem
+                        key={i}
+                        as={motion.div}
+                        height={"300px"}
+                        initial={{ opacity: 0 }}
+                        viewport={{ once: true }}
+                        whileInView={{ opacity: 1 }}
+                    >
                         <ItemGrid
                             description={item.description}
                             img={item.img}
