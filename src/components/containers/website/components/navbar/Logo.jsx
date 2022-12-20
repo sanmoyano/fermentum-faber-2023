@@ -7,7 +7,9 @@ const Logo = () => {
             <Image
                 alt={"fermentum faber logo"}
                 height={"auto"}
-                src={"../../../../../assets/logo.svg"}
+                src={
+                    "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Flogo.svg?alt=media&token=d8edd6c6-1c07-405e-9485-18077b027a4f"
+                }
                 width={"120px"}
             />
         </Link>
