@@ -12,6 +12,7 @@ const ItemGrid = ({ img, title, description }) => {
                 height={"100%"}
                 justifyContent={"center"}
                 p={4}
+                width={"100%"}
             >
                 <Text color={"brand.200"} textAlign={"center"} textStyle={"heading"}>
                     {description}
