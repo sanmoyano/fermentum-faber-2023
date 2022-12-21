@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { useLocation, useRoutes } from "react-router-dom";
 
@@ -36,7 +36,11 @@ const router = () => {
         },
     ]);
     const location = useLocation();
+    const { pathname } = useLocation();
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     if (!element) return null;
 
     return (
