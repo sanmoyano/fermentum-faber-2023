@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { Outlet, useLocation, useRoutes } from "react-router-dom";
 
-import { Home, Beers, Services, Where, Us, Index, GralPaz } from "./routes/";
+import { Home, Beers, Services, Where, Us } from "./routes/";
 import Root from "./routes/Root";
 
 const router = () => {

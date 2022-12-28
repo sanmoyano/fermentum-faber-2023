@@ -5,7 +5,6 @@ import { Logo, NavBar } from ".";
 const Header = () => {
     return (
         <Stack
-            // backdropFilter={"blur(0.7em)"}
             bgColor={"transparent"}
             paddingInline={24}
             position={"absolute"}

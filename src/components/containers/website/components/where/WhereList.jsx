@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 
-import { Index } from "../../../../../routes";
 import { ListContainer } from "../../../../decorators";
 
 const WhereList = () => {
@@ -13,11 +12,7 @@ const WhereList = () => {
         { title: "otras zonas", route: "/donde/otras-zonas", img: "" },
     ];
 
-    return (
-        <Index>
-            <ListContainer itemArray={zones} />
-        </Index>
-    );
+    return <ListContainer itemArray={zones} />;
 };
 
 export default WhereList;
