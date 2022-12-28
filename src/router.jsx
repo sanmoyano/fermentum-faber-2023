@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import { useLocation, useRoutes } from "react-router-dom";
+import { Outlet, useLocation, useRoutes } from "react-router-dom";
 
-import { Home, Beers, Services, Where, Us } from "./routes/";
+import { Home, Beers, Services, Where, Us, Index, GralPaz } from "./routes/";
 import Root from "./routes/Root";
 
 const router = () => {
@@ -35,6 +35,7 @@ const router = () => {
             ],
         },
     ]);
+
     const location = useLocation();
 
     useEffect(() => {

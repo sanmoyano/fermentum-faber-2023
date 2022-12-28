@@ -3,3 +3,5 @@ export { default as Beers } from "./pages/Beers";
 export { default as Services } from "./pages/Services";
 export { default as Where } from "./pages/Where";
 export { default as Us } from "./pages/Us";
+export { default as Index } from "./pages/Index";
+export { default as GralPaz } from "./pages/GralPaz";

@@ -20,11 +20,15 @@ const ListContainerInfo = ({ itemArray }) => {
                         viewport={{ once: true }}
                         whileInView={{ opacity: 1 }}
                     >
-                        <ItemGrid
-                            description={item.description}
-                            img={item.img}
-                            title={item.title}
-                        />
+                        {item.description ? (
+                            <ItemGrid
+                                description={item.description}
+                                img={item.img}
+                                title={item.title}
+                            />
+                        ) : (
+                            <ItemGrid img={item.img} title={item.title} />
+                        )}
                     </GridItem>
                 ))}
             </Grid>

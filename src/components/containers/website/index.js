@@ -13,3 +13,4 @@ export { default as BeerList } from "./components/beers/BeerList";
 export { default as ServicesList } from "./components/services/ServicesList";
 export { default as UsList } from "./components/us/UsList";
 export { default as UsText } from "./components/us/UsText";
+export { default as WhereList } from "./components/where/WhereList";

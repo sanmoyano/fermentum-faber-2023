@@ -13,7 +13,6 @@ const StackBackground = ({ children, bgImage }) => {
         bgSize: "cover",
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
         position: "relative",
     };
 

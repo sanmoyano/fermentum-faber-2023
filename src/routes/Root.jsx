@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 
 import { Header, Form, Footer } from "../components/containers/website";
 
