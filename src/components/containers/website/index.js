@@ -14,3 +14,5 @@ export { default as ServicesList } from "./components/services/ServicesList";
 export { default as UsList } from "./components/us/UsList";
 export { default as UsText } from "./components/us/UsText";
 export { default as WhereList } from "./components/where/WhereList";
+export { default as BarList } from "./components/where/BarList";
+export { default as BarItem } from "./components/where/BarItem";
