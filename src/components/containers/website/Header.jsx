@@ -1,13 +1,16 @@
 import { Stack } from "@chakra-ui/react";
+import { useLocation } from "react-router-dom";
 
 import { Logo, NavBar } from ".";
 
 const Header = () => {
+    const { pathname } = useLocation();
+
     return (
         <Stack
-            bgColor={"transparent"}
+            bgColor={pathname.startsWith("/donde/") ? "brand.500" : "transparent"}
             paddingInline={24}
-            position={"absolute"}
+            position={pathname.startsWith("/donde/") ? "static" : "absolute"}
             width={"100%"}
             zIndex={1}
         >

@@ -12,7 +12,7 @@ const sections = [
         route: "/servicios",
     },
     {
-        title: "donde encontrarnos",
+        title: "donde estamos",
         img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fdonde.jpg?alt=media&token=c454033a-a78a-43b8-811d-e14ee3b10969",
         route: "/donde",
     },

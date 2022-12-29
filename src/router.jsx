@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import { Outlet, useLocation, useRoutes } from "react-router-dom";
+import { useLocation, useRoutes } from "react-router-dom";
 
-import { Home, Beers, Services, Where, Us } from "./routes/";
+import { Home, Beers, Services, Where, Us, BarListContainer } from "./routes/";
 import Root from "./routes/Root";
 
 const router = () => {
@@ -27,6 +27,10 @@ const router = () => {
                 {
                     path: "/donde",
                     element: <Where />,
+                },
+                {
+                    path: "/donde/:zona",
+                    element: <BarListContainer />,
                 },
                 {
                     path: "/nosotros",

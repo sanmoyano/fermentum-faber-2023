@@ -3,3 +3,4 @@ export { default as Beers } from "./pages/Beers";
 export { default as Services } from "./pages/Services";
 export { default as Where } from "./pages/Where";
 export { default as Us } from "./pages/Us";
+export { default as BarListContainer } from "./pages/BarListContainer";
