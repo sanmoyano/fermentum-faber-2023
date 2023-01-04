@@ -6,12 +6,41 @@ import { BarItem } from "../../components/containers/website";
 
 const BarListContainer = () => {
     const zonas = [
-        { id: 1, name: "general paz", path: "/donde/general-paz", bares: [{}] },
-        { id: 2, name: "alta córdoba", path: "/donde/alta-cordoba", bares: [{}] },
-        { id: 3, name: "cerro", path: "/donde/cerro", bares: [{}] },
-        { id: 4, name: "nueva córdoba", path: "/donde/nueva-cordoba", bares: [{}] },
-        { id: 5, name: "guemes", path: "/donde/guemes", bares: [{}] },
-        { id: 6, name: "otras zonas", path: "/donde/otras-zonas", bares: [{}] },
+        {
+            name: "general paz",
+            path: "/donde/general-paz",
+            bares: [
+                {
+                    name: "Ohana",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fohana.jpg?alt=media&token=10aab554-1106-464f-aaef-7ef76de86441",
+                    direction: "Catamarca 1008",
+                    ig: "/ohanafamiliacervecera",
+                    igLink: "https://www.instagram.com/ohanafamiliacervecera/?hl=es",
+                    map: "https://www.google.com/maps/dir//Ohana+Familia+Cervecera/data=!4m8!4m7!1m0!1m5!1m1!1s0x9432a2a1c00e11fd:0xf6ea680a93388e42!2m2!1d-64.1702054!2d-31.4127165",
+                },
+                {
+                    name: "Ohana",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fohana.jpg?alt=media&token=10aab554-1106-464f-aaef-7ef76de86441",
+                    direction: "Catamarca 1008",
+                    ig: "/ohanafamiliacervecera",
+                    igLink: "https://www.instagram.com/ohanafamiliacervecera/?hl=es",
+                    map: "https://www.google.com/maps/dir//Ohana+Familia+Cervecera/data=!4m8!4m7!1m0!1m5!1m1!1s0x9432a2a1c00e11fd:0xf6ea680a93388e42!2m2!1d-64.1702054!2d-31.4127165",
+                },
+                {
+                    name: "Ohana",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fohana.jpg?alt=media&token=10aab554-1106-464f-aaef-7ef76de86441",
+                    direction: "Catamarca 1008",
+                    ig: "/ohanafamiliacervecera",
+                    igLink: "https://www.instagram.com/ohanafamiliacervecera/?hl=es",
+                    map: "https://www.google.com/maps/dir//Ohana+Familia+Cervecera/data=!4m8!4m7!1m0!1m5!1m1!1s0x9432a2a1c00e11fd:0xf6ea680a93388e42!2m2!1d-64.1702054!2d-31.4127165",
+                },
+            ],
+        },
+        { name: "alta córdoba", path: "/donde/alta-cordoba", bares: [{}] },
+        { name: "cerro", path: "/donde/cerro", bares: [{}] },
+        { name: "nueva córdoba", path: "/donde/nueva-cordoba", bares: [{}] },
+        { name: "guemes", path: "/donde/guemes", bares: [{}] },
+        { name: "otras zonas", path: "/donde/otras-zonas", bares: [{}] },
     ];
     const [itemZona, setItemZona] = useState({});
     const { zona } = useParams();
