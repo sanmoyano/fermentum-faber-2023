@@ -87,6 +87,14 @@ const BarListContainer = () => {
                     map: "https://www.google.com.ar/maps/place/Bruxx+Cerro+-+Lomos+%26+Birra/@-31.3634865,-64.2385892,16.97z/data=!4m5!3m4!1s0x943299e301af59ed:0x45ca207b8968f3b4!8m2!3d-31.363499!4d-64.2363827",
                 },
                 {
+                    name: "hood",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fguemes%2Fhood.jpg?alt=media&token=d76ad56b-11b3-4a37-8544-9488316ad691",
+                    direction: "Av Rafael Núñez 4780",
+                    ig: "/hood.cba",
+                    igLink: "https://www.instagram.com/hood.cba/",
+                    map: "https://www.google.com/maps/place/HOOD/@-31.3607028,-64.2424935,17z/data=!3m1!4b1!4m5!3m4!1s0x9432997701f79203:0xf533ee09694fbdf0!8m2!3d-31.3607029!4d-64.2380088",
+                },
+                {
                     name: "bruxx recta",
                     img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fcerro%2Fbruxx.jpg?alt=media&token=e06f1abc-8b7b-4ebe-85ee-1fb1da2b18f4",
                     direction: "Av Recta Martinolli 8580",
@@ -199,7 +207,44 @@ const BarListContainer = () => {
                 },
             ],
         },
-        { name: "guemes", path: "/donde/guemes", bares: [{}] },
+        {
+            name: "guemes",
+            path: "/donde/guemes",
+            bares: [
+                {
+                    name: "billy beer",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fguemes%2Fbillybeer.jpg?alt=media&token=5395d14b-fde2-4f9c-9592-6d7a73f9a7f6",
+                    direction: "Achaval Rodriguez 244",
+                    ig: "/billybeerbar",
+                    igLink: "https://www.instagram.com/billybeerbar/",
+                    map: "https://www.google.com/maps/place/Billy+Beer/@-31.4242046,-64.1934144,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a2862717d15b:0x10c71a43efa99e26!8m2!3d-31.4242637!4d-64.1912584",
+                },
+                {
+                    name: "the bottom bar",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fguemes%2Fbottom.jpg?alt=media&token=74cb06a9-9982-43c9-bd61-26a531145b45",
+                    direction: "Achaval Rodriguez 225",
+                    ig: "/bottombar",
+                    igLink: "https://www.instagram.com/bottombar/",
+                    map: "https://www.google.com/maps/place/The+B%C5%8Dttom+%E2%80%93+Bar+bot%C3%A1nico/@-31.4246583,-64.1934564,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a3e467b11971:0xb6ca44bc7fd244fa!8m2!3d-31.4246583!4d-64.1912677",
+                },
+                {
+                    name: "capitan",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fguemes%2Fcapitan.jpg?alt=media&token=7358517d-88bb-4348-81a8-d304d506df1c",
+                    direction: "Achaval Rodriguez 244",
+                    ig: "/capitancerveceria",
+                    igLink: "https://www.instagram.com/capitancerveceria/",
+                    map: "https://www.google.com/maps/place/CAPITAN/@-31.4242046,-64.1934144,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a28628e096af:0x21389aea4ca77184!8m2!3d-31.4242637!4d-64.1912584",
+                },
+                {
+                    name: "cuatro catorce",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fguemes%2Fcuatrocatorce.jpg?alt=media&token=a6651b53-d1f5-4fcf-9dbf-f59ba74a5549",
+                    direction: "Fructuoso Rivera 260",
+                    ig: "/cuatrocatorce_festivaldebirras",
+                    igLink: "https://www.instagram.com/cuatrocatorce_festivaldebirras/",
+                    map: "https://www.google.com/maps/place/Cuatro+Catorce/@-31.4254699,-64.1941494,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a28886b2ace7:0xc1a49781e3aa2fd0!8m2!3d-31.4254699!4d-64.1919607",
+                },
+            ],
+        },
         { name: "otras zonas", path: "/donde/otras-zonas", bares: [{}] },
     ];
     const [itemZona, setItemZona] = useState({});
