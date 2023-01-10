@@ -1,5 +1,7 @@
-import { Box, Grid, GridItem, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Grid, GridItem, Image, Link, Stack, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import { FaMap, FaMapMarker } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
 
 const BarItem = ({ zona }) => {
     return (
@@ -49,14 +51,32 @@ const BarItem = ({ zona }) => {
                             <Text color={"brand.500"} textStyle={"itemTitle"}>
                                 {bar.name}
                             </Text>
-                            {/* <Text>{bar.description}</Text> */}
-                            <Stack spacing={0}>
-                                <Text color={"brand.500"} textStyle={"heading"}>
-                                    {bar.direction}
-                                </Text>
-                                <Text color={"brand.500"} textStyle={"heading"}>
-                                    instagram {bar.ig}
-                                </Text>
+                            <Stack spacing={2}>
+                                <Stack direction={"row"}>
+                                    {<FaMapMarker />}
+                                    <Link href={bar.map} target={"_blank"}>
+                                        <Text color={"brand.500"} textStyle={"heading"}>
+                                            {bar.direction}
+                                        </Text>
+                                    </Link>
+                                </Stack>
+                                <Stack alignItems={"center"} direction={"row"}>
+                                    {<FiInstagram />}
+                                    <Link href={bar.igLink} target={"_blank"}>
+                                        <Text color={"brand.500"} textStyle={"heading"}>
+                                            {bar.ig}
+                                        </Text>
+                                    </Link>
+                                </Stack>
+                                <Button leftIcon={<FaMap />} variant={"black"} width={"150px"}>
+                                    <Link
+                                        _hover={{ textDecoration: "none" }}
+                                        href={bar.map}
+                                        target={"_blank"}
+                                    >
+                                        Ver en mapa
+                                    </Link>
+                                </Button>
                             </Stack>
                         </Stack>
                     </GridItem>
