@@ -323,7 +323,7 @@ const BarListContainer = () => {
                 },
                 {
                     name: "parada 600",
-                    igm: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fparada600.jpg?alt=media&token=a2213d09-269f-4297-84e2-3a5ca752a2db",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fparada600.jpg?alt=media&token=dcb79029-9dc6-4203-860e-a6195b913726",
                     direction: "Av. Armada Argentina 594",
                     ig: "/600beer",
                     igLink: "https://www.instagram.com/600beer/",
