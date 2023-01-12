@@ -8,13 +8,14 @@ const Form = () => {
         <Stack
             alignItems={"flex-start"}
             {...bgColor}
-            direction={"row"}
+            direction={{ base: "column", md: "row" }}
             justifyContent={"space-between"}
             paddingBlock={10}
-            paddingInline={24}
+            paddingInline={{ base: 6, lg: 24 }}
+            spacing={10}
             width={"100%"}
         >
-            <Stack spacing={6} width={"25%"}>
+            <Stack spacing={4} width={{ base: "100%", lg: "25%" }}>
                 <Text fontWeight={"bold"} textStyle={"subHeading"}>
                     contacto
                 </Text>

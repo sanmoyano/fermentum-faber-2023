@@ -13,7 +13,7 @@ const navItems = [
 
 const NavBar = () => {
     return (
-        <Stack color={"brand.200"} direction={"row"} spacing={8}>
+        <>
             {navItems.map((item, i) => (
                 <NavItem key={i} name={item.name} path={item.path} />
             ))}
@@ -28,7 +28,7 @@ const NavBar = () => {
                     <Icon as={AiFillShopping} h={5} w={5} />
                 </Stack>
             </Link>
-        </Stack>
+        </>
     );
 };
 

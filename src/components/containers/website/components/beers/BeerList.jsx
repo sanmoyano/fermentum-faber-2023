@@ -79,10 +79,10 @@ const BeerList = () => {
 
     return (
         <Grid
-            gap={6}
-            gridTemplateColumns={"repeat(auto-fit, minmax(320px, 1fr))"}
+            gap={10}
+            gridTemplateColumns={"repeat(auto-fit, minmax(300px, 1fr))"}
             justifyContent={"center"}
-            p={24}
+            p={{ base: 6, md: 24 }}
         >
             {beers.map((item, i) => (
                 <GridItem
@@ -102,7 +102,7 @@ const BeerList = () => {
                             src={item.img}
                         />
                     </Box>
-                    <Stack height={"200px"} paddingBlock={2}>
+                    <Stack paddingBlock={2}>
                         <Text color={"brand.500"} textStyle={"itemTitle"}>
                             {item.title}
                         </Text>

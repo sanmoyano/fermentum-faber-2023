@@ -1,7 +1,7 @@
 import { Stack } from "@chakra-ui/react";
 import { useLocation } from "react-router-dom";
 
-import { Logo, NavBar } from ".";
+import { Logo, DesktopNavBar, MobileNavBar } from ".";
 
 const Header = () => {
     const { pathname } = useLocation();
@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <Stack
             bgColor={pathname.startsWith("/donde/") ? "brand.500" : "transparent"}
-            paddingInline={24}
+            justifyContent={"space-between"}
             position={pathname.startsWith("/donde/") ? "static" : "absolute"}
             width={"100%"}
             zIndex={1}
@@ -19,10 +19,12 @@ const Header = () => {
                 direction={"row"}
                 justifyContent={"space-between"}
                 marginBlock={6}
+                paddingInline={{ base: 6, lg: 24 }}
                 position={"relative"}
             >
                 <Logo />
-                <NavBar />
+                <DesktopNavBar />
+                <MobileNavBar />
             </Stack>
         </Stack>
     );
