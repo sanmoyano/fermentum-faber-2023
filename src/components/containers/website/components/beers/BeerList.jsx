@@ -82,7 +82,7 @@ const BeerList = () => {
             gap={10}
             gridTemplateColumns={"repeat(auto-fit, minmax(300px, 1fr))"}
             justifyContent={"center"}
-            p={{ base: 6, md: 24 }}
+            p={{ base: 6, md: 32 }}
         >
             {beers.map((item, i) => (
                 <GridItem
