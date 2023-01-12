@@ -6,7 +6,7 @@ const UsText = () => {
             alignItems={"center"}
             justifyContent={"center"}
             marginBottom={24}
-            paddingInline={24}
+            paddingInline={{ base: 6, lg: 24 }}
             spacing={12}
         >
             <Text
@@ -14,7 +14,7 @@ const UsText = () => {
                 textAlign={"justify"}
                 textStyle={"heading"}
                 textTransform={"uppercase"}
-                width={"400px"}
+                width={{ base: "atuo", lg: "400px" }}
             >
                 Fermentum Faber nace con la idea de generar un espacio de calidad en la producción
                 de cerveza. Calidad que implica una verdadera puesta en acción de un trabajo en
@@ -27,7 +27,7 @@ const UsText = () => {
                 nuestra cerveza vivan una experiencia agradable, superadora y mejor si es en buena
                 compañía.
             </Text>
-            <Box sx={{ width: "400px" }}>
+            <Box sx={{ width: { base: "300px", lg: "400px" } }}>
                 <Image src="https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Flogotipo_horizontal_b.svg?alt=media&token=10ee43d9-c16a-4652-b152-abbab7fe3ae2" />
             </Box>
         </Stack>

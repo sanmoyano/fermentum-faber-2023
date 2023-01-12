@@ -5,10 +5,10 @@ import { ItemGrid } from "../decorators";
 
 const ListContainerInfo = ({ itemArray }) => {
     return (
-        <Stack justifyContent={"center"} p={24} spacing={6}>
+        <Stack justifyContent={"center"} p={{ base: 5, lg: 24 }} spacing={6}>
             <Grid
                 gap={"25px"}
-                gridTemplateColumns={"repeat(auto-fit, minmax(320px, 320px))"}
+                gridTemplateColumns={"repeat(auto-fit, minmax(300px, 300px))"}
                 justifyContent={"center"}
             >
                 {itemArray?.map((item, i) => (

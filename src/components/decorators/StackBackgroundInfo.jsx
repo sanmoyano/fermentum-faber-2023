@@ -7,7 +7,8 @@ const StackBackgroundInfo = ({ title, info }) => {
             <Heading
                 color={"brand.200"}
                 fontFamily={"Acumin-Pro-Bold-Italic"}
-                size={"4xl"}
+                size={{ base: "2xl", lg: "4xl" }}
+                textAlign={"center"}
                 textTransform={"uppercase"}
             >
                 {title}
@@ -16,9 +17,10 @@ const StackBackgroundInfo = ({ title, info }) => {
                 alignItems={"center"}
                 justifyContent={"center"}
                 lineHeight={1}
+                p={2}
                 textAlign={"center"}
                 textStyle={"heading"}
-                width={"450px"}
+                width={{ base: "auto", lg: "450px" }}
             >
                 <Text>{info}</Text>
             </Stack>
