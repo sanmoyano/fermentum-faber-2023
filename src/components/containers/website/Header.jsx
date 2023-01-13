@@ -1,8 +1,8 @@
-import { Stack } from "@chakra-ui/react";
+import { Icon, Link, Stack, Text } from "@chakra-ui/react";
 import { useLocation } from "react-router-dom";
+import { AiFillShopping } from "react-icons/ai";
 
 import { Logo, DesktopNavBar, MobileNavBar } from ".";
-
 const Header = () => {
     const { pathname } = useLocation();
 
@@ -23,8 +23,18 @@ const Header = () => {
                 position={"relative"}
             >
                 <Logo />
-                <DesktopNavBar />
                 <MobileNavBar />
+                <Link
+                    href="https://pency.app/fermentum"
+                    sx={{ display: { base: "flex", md: "none" } }}
+                    target={"_blank"}
+                    textStyle={"link"}
+                >
+                    <Stack alignItems={"center"} color={"brand.200"} direction={"row"}>
+                        <Icon as={AiFillShopping} h={6} w={6} />
+                    </Stack>
+                </Link>
+                <DesktopNavBar />
             </Stack>
         </Stack>
     );
