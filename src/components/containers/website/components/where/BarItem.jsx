@@ -24,10 +24,10 @@ const BarItem = ({ zona }) => {
             </Stack>
             <Grid
                 gap={6}
-                gridTemplateColumns={"repeat(auto-fit, minmax(320px, 1fr))"}
+                gridTemplateColumns={"repeat(auto-fit, minmax(300px, 1fr))"}
                 justifyContent={"center"}
                 paddingBlock={10}
-                paddingInline={24}
+                paddingInline={{ base: 6, md: 24 }}
             >
                 {zona.bares?.map((bar, i) => (
                     <GridItem
@@ -47,7 +47,7 @@ const BarItem = ({ zona }) => {
                                 src={bar.img}
                             />
                         </Box>
-                        <Stack height={"200px"} paddingBlock={2}>
+                        <Stack paddingBlock={2}>
                             <Text color={"brand.500"} textStyle={"itemTitle"}>
                                 {bar.name}
                             </Text>

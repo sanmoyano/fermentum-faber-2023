@@ -5,7 +5,7 @@ import { ItemGrid } from "../decorators";
 
 const ListContainerInfo = ({ itemArray }) => {
     return (
-        <Stack justifyContent={"center"} p={{ base: 5, lg: 32 }} spacing={6}>
+        <Stack justifyContent={"center"} p={{ base: 6, lg: 32 }} spacing={6}>
             <Grid
                 gap={"25px"}
                 gridTemplateColumns={"repeat(auto-fit, minmax(300px, 300px))"}

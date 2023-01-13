@@ -3,7 +3,7 @@ import React from "react";
 
 const StackBackgroundInfo = ({ title, info }) => {
     return (
-        <Stack alignItems={"center"} direction={"column"} spacing={2}>
+        <Stack alignItems={"center"} direction={"column"} lineHeight={1} spacing={2}>
             <Heading
                 color={"brand.200"}
                 fontFamily={"Acumin-Pro-Bold-Italic"}

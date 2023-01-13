@@ -360,7 +360,13 @@ const BarListContainer = () => {
 
     return (
         <>
-            <Stack direction={"row"} justifyContent={"center"} p={4} spacing={6}>
+            <Stack
+                alignItems={"center"}
+                direction={{ base: "column", md: "row" }}
+                justifyContent={"center"}
+                p={4}
+                spacing={6}
+            >
                 {zonas?.map((place, i) => (
                     <Link key={i} to={place.path}>
                         <Text

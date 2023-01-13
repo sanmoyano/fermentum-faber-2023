@@ -8,7 +8,7 @@ import { ItemGrid, ChakraLink } from "../decorators";
 const ListContainer = ({ title, itemArray }) => {
     return (
         <Stack justifyContent={"center"} p={{base:6, lg:32}} spacing={6}>
-            <Text color={"brand.500"} textAlign={"center"} textStyle={"itemTitle"}>
+            <Text color={"brand.500"} lineHeight={1} textAlign={"center"} textStyle={"itemTitle"}>
                 {title}
             </Text>
             <Grid
