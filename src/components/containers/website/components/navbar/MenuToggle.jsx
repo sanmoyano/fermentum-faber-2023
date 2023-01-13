@@ -10,6 +10,7 @@ const MenuToggle = ({ open, toggle }) => {
     return (
         <IconButton
             aria-label={"toggle menu"}
+            bgColor={"transparent"}
             color={"brand.200"}
             icon={open ? <IoMdClose {...sizeIcon} /> : <HiMenu {...sizeIcon} />}
             size={"lg"}
