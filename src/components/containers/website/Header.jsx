@@ -19,7 +19,6 @@ const Header = () => {
                 direction={"row"}
                 justifyContent={"space-between"}
                 marginBlock={6}
-                padding={2}
                 paddingInline={{ base: 6, lg: 24 }}
                 position={"relative"}
             >
@@ -32,7 +31,7 @@ const Header = () => {
                     textStyle={"link"}
                 >
                     <Stack alignItems={"center"} color={"brand.200"} direction={"row"}>
-                        <Icon as={AiFillShopping} h={6} w={6} />
+                        <Icon as={AiFillShopping} h={6} padding={2} w={6} />
                     </Stack>
                 </Link>
                 <DesktopNavBar />
