@@ -23,11 +23,10 @@ const BarItem = ({ zona }) => {
                 </Text>
             </Stack>
             <Grid
-                gap={6}
+                gap={10}
                 gridTemplateColumns={"repeat(auto-fit, minmax(300px, 1fr))"}
                 justifyContent={"center"}
-                paddingBlock={10}
-                paddingInline={{ base: 6, md: 24 }}
+                padding={{ base: 6, md: 32 }}
             >
                 {zona.bares?.map((bar, i) => (
                     <GridItem
