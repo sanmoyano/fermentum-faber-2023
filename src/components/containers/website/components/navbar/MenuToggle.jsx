@@ -15,7 +15,7 @@ const MenuToggle = ({ open, toggle }) => {
             icon={open ? <IoMdClose {...sizeIcon} /> : <HiMenu {...sizeIcon} />}
             isActive={false}
             size={"lg"}
-            variant={"ghost"}
+            variant={"unstyled"}
             onClick={toggle}
         />
     );
