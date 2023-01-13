@@ -30,8 +30,8 @@ const Header = () => {
                     target={"_blank"}
                     textStyle={"link"}
                 >
-                    <Stack alignItems={"center"} color={"brand.200"} direction={"row"}>
-                        <Icon as={AiFillShopping} h={8} padding={4} w={8} />
+                    <Stack alignItems={"center"} color={"brand.200"} direction={"row"} padding={4}>
+                        <Icon as={AiFillShopping} h={8} w={8} />
                     </Stack>
                 </Link>
                 <DesktopNavBar />
