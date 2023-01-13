@@ -10,13 +10,14 @@ const Form = () => {
             {...bgColor}
             direction={{ base: "column", md: "row" }}
             justifyContent={"space-between"}
+            padding={{ base: 6, md: 0 }}
             paddingBlock={10}
             paddingInline={{ base: 6, lg: 24 }}
             spacing={10}
             width={"100%"}
         >
             <Stack spacing={4} width={{ base: "100%", lg: "25%" }}>
-                <Text fontWeight={"bold"} textStyle={"subHeading"}>
+                <Text fontWeight={700} textStyle={"subHeading"}>
                     contacto
                 </Text>
                 <Text color={"brand.200"} fontFamily={"Acumin-Pro"}>
@@ -33,7 +34,7 @@ const Form = () => {
                 </Text>
             </Stack>
             <Stack spacing={6}>
-                <Text fontWeight={"bold"} textStyle={"subHeading"}>
+                <Text fontWeight={700} textStyle={"subHeading"}>
                     Horarios
                 </Text>
                 <Stack spacing={4}>
@@ -54,7 +55,7 @@ const Form = () => {
                 </Stack>
             </Stack>
             <Stack spacing={4}>
-                <Text fontWeight={"bold"} textStyle={"subHeading"}>
+                <Text fontWeight={700} textStyle={"subHeading"}>
                     Econtranos
                 </Text>
                 <Stack color={"brand.200"} spacing={0}>
@@ -63,7 +64,7 @@ const Form = () => {
                 </Stack>
             </Stack>
             <Stack spacing={4}>
-                <Text fontWeight={"bold"} textStyle={"subHeading"}>
+                <Text fontWeight={700} textStyle={"subHeading"}>
                     Redes
                 </Text>
                 <Stack color={"brand.200"} spacing={2}>
