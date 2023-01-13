@@ -19,7 +19,6 @@ const Header = () => {
                 direction={"row"}
                 justifyContent={"space-between"}
                 marginBlock={6}
-                paddingBlock={4}
                 paddingInline={{ base: 6, lg: 24 }}
                 position={"relative"}
             >
