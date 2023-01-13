@@ -8,15 +8,19 @@ const Form = () => {
         <Stack
             alignItems={"flex-start"}
             {...bgColor}
+            d
             direction={{ base: "column", md: "row" }}
             justifyContent={"space-between"}
-            padding={{ base: 6, md: 0 }}
             paddingBlock={10}
             paddingInline={{ base: 6, lg: 24 }}
             spacing={10}
             width={"100%"}
         >
-            <Stack spacing={4} width={{ base: "100%", lg: "25%" }}>
+            <Stack
+                padding={{ base: 6, md: "none" }}
+                spacing={4}
+                width={{ base: "100%", lg: "25%" }}
+            >
                 <Text fontWeight={700} textStyle={"subHeading"}>
                     contacto
                 </Text>
@@ -33,7 +37,7 @@ const Form = () => {
                     </Link>
                 </Text>
             </Stack>
-            <Stack spacing={6}>
+            <Stack padding={{ base: 6, md: "none" }} spacing={6}>
                 <Text fontWeight={700} textStyle={"subHeading"}>
                     Horarios
                 </Text>
@@ -54,7 +58,7 @@ const Form = () => {
                     </Stack>
                 </Stack>
             </Stack>
-            <Stack spacing={4}>
+            <Stack padding={{ base: 6, md: "none" }} spacing={4}>
                 <Text fontWeight={700} textStyle={"subHeading"}>
                     Econtranos
                 </Text>
@@ -63,7 +67,7 @@ const Form = () => {
                     <Text fontFamily={"Acumin-Pro"}>Ciudad de Córdoba</Text>
                 </Stack>
             </Stack>
-            <Stack spacing={4}>
+            <Stack padding={{ base: 6, md: "none" }} spacing={4}>
                 <Text fontWeight={700} textStyle={"subHeading"}>
                     Redes
                 </Text>
