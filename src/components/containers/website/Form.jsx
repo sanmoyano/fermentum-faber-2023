@@ -21,7 +21,7 @@ const Form = () => {
                 spacing={4}
                 width={{ base: "100%", lg: "25%" }}
             >
-                <Text fontWeight={700} textStyle={"subHeading"}>
+                <Text fontWeight={"700"} textStyle={"subHeading"}>
                     contacto
                 </Text>
                 <Text color={"brand.200"} fontFamily={"Acumin-Pro"}>
@@ -38,7 +38,7 @@ const Form = () => {
                 </Text>
             </Stack>
             <Stack padding={{ base: 6, md: "none" }} spacing={6}>
-                <Text fontWeight={700} textStyle={"subHeading"}>
+                <Text fontWeight={"700"} textStyle={"subHeading"}>
                     Horarios
                 </Text>
                 <Stack spacing={4}>
@@ -59,7 +59,7 @@ const Form = () => {
                 </Stack>
             </Stack>
             <Stack padding={{ base: 6, md: "none" }} spacing={4}>
-                <Text fontWeight={700} textStyle={"subHeading"}>
+                <Text fontWeight={"700"} textStyle={"subHeading"}>
                     Econtranos
                 </Text>
                 <Stack color={"brand.200"} spacing={0}>
@@ -68,7 +68,7 @@ const Form = () => {
                 </Stack>
             </Stack>
             <Stack padding={{ base: 6, md: "none" }} spacing={4}>
-                <Text fontWeight={700} textStyle={"subHeading"}>
+                <Text fontWeight={"700"} textStyle={"subHeading"}>
                     Redes
                 </Text>
                 <Stack color={"brand.200"} spacing={2}>
