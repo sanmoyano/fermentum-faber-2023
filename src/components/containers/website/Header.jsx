@@ -31,7 +31,7 @@ const Header = () => {
                     textStyle={"link"}
                 >
                     <Stack alignItems={"center"} color={"brand.200"} direction={"row"}>
-                        <Icon as={AiFillShopping} h={6} padding={2} w={6} />
+                        <Icon as={AiFillShopping} h={8} padding={4} w={8} />
                     </Stack>
                 </Link>
                 <DesktopNavBar />
