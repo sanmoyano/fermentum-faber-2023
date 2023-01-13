@@ -13,6 +13,7 @@ const MenuToggle = ({ open, toggle }) => {
             bgColor={"transparent"}
             color={"brand.200"}
             icon={open ? <IoMdClose {...sizeIcon} /> : <HiMenu {...sizeIcon} />}
+            isActive={false}
             size={"lg"}
             variant={"ghost"}
             onClick={toggle}
