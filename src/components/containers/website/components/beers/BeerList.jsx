@@ -41,7 +41,7 @@ const BeerList = () => {
                 "Combina intensas notas caramelo de sus maltas con las notas frutadas de sus lúpulos. Amargor moderado.",
             ibu: "26",
             abv: "5.5%",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2F05_aaa.png?alt=media&token=956c8fe4-a825-4ff3-8e77-edb33707646d",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2FcervarioRecurso%201%40300x.png?alt=media&token=d19b0d4a-8aac-49ac-9952-31f0369d5d6c",
         },
         {
             title: "Session IPA",
@@ -65,7 +65,7 @@ const BeerList = () => {
                 "Una IPA con cuerpo, buena graduación alcohólica y equilibrada. Amargor intenso sin asperezas. Grandes cantidades de lúpulo aportan notas tropicales en sabor y aroma.",
             ibu: "54",
             abv: "6.5%",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2F08_american.JPG?alt=media&token=820a3ac2-1a8f-412f-8cb9-0c4c9f2398f1",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2FcervarioRecurso%201american.png?alt=media&token=7734268f-e253-4d70-be1d-e1041aa0e891",
         },
         {
             title: "Juicy IPA",
