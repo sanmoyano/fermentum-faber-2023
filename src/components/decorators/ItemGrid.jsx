@@ -17,7 +17,7 @@ const ItemGrid = ({ img, title, description }) => {
                 width={"100%"}
             >
                 <Stack
-                    _groupHover={{ right: "0%" }}
+                    _groupHover={description ? { right: "0%" } : "100%"}
                     backdropBlur={1}
                     bgColor={"rgba(0,0,0,.9)"}
                     borderRadius={6}

@@ -40,7 +40,7 @@ const ServicesList = () => {
         {
             title: "formatos envasados",
             description:
-                "Contamos con diferentes formatos de envases según tu necesidad. Barriles de 50 30 20 y 10 litros. También podes consultar por nuestra linea de botellas de 500ml.",
+                "Contamos con diferentes formatos de envases según tu necesidad. Barriles de 50 30 20 y 10 litros. También podes consultar por nuestras latas de 473ml.",
             img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fcomerciales.jpg?alt=media&token=fd24a8ab-928e-4b5c-8c87-d957b6883f0a",
             route: "",
         },
