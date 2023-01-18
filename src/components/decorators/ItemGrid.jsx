@@ -1,4 +1,4 @@
-import { Box, Image, Stack, Text } from "@chakra-ui/react";
+import { Stack, Text } from "@chakra-ui/react";
 
 const ItemGrid = ({ img, title, description }) => {
     return (
@@ -11,12 +11,28 @@ const ItemGrid = ({ img, title, description }) => {
                 borderRadius={6}
                 height={"100%"}
                 justifyContent={"center"}
-                p={4}
+                overflow={"hidden"}
+                position={"relative"}
+                role={"group"}
                 width={"100%"}
             >
-                <Text color={"brand.200"} textAlign={"center"} textStyle={"heading"}>
-                    {description}
-                </Text>
+                <Stack
+                    _groupHover={{ right: "0%" }}
+                    backdropBlur={1}
+                    bgColor={"rgba(0,0,0,.9)"}
+                    borderRadius={6}
+                    height={"100%"}
+                    justifyContent={"center"}
+                    p={4}
+                    position={"absolute"}
+                    right={"-100%"}
+                    transition={"1s"}
+                    width={"100%"}
+                >
+                    <Text color={"brand.200"} textAlign={"center"} textStyle={"heading"}>
+                        {description}
+                    </Text>
+                </Stack>
             </Stack>
             <Text
                 color={"brand.500"}

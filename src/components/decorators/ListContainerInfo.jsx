@@ -20,7 +20,7 @@ const ListContainerInfo = ({ itemArray }) => {
                         viewport={{ once: true }}
                         whileInView={{ opacity: 1 }}
                     >
-                        {item.description ? (
+                        {item?.description ? (
                             <ItemGrid
                                 description={item.description}
                                 img={item.img}
