@@ -19,13 +19,15 @@ const NavBar = () => {
             ))}
             <Link
                 href="https://pency.app/fermentum"
-                sx={{ textDecoration: "underline" }}
                 target={"_blank"}
+                textDecoration={"none"}
                 textStyle={"link"}
             >
-                <Stack alignItems={"center"} direction={"row"}>
-                    <Text>shop</Text>
-                    <Icon as={AiFillShopping} h={5} w={5} />
+                <Stack alignItems={"center"} color={"brand.200"} direction={"row"}>
+                    <Text fontWeight={"700"} textAlign={"center"}>
+                        Shop
+                    </Text>
+                    <Icon as={AiFillShopping} h={8} w={8} />
                 </Stack>
             </Link>
         </>

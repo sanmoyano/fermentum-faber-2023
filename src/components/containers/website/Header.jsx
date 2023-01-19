@@ -28,9 +28,13 @@ const Header = () => {
                     href="https://pency.app/fermentum"
                     sx={{ display: { base: "flex", md: "none" } }}
                     target={"_blank"}
+                    textDecoration={"none"}
                     textStyle={"link"}
                 >
-                    <Stack alignItems={"center"} color={"brand.200"} direction={"row"} padding={4}>
+                    <Stack alignItems={"end"} color={"brand.200"} direction={"row"} padding={4}>
+                        <Text fontWeight={"700"} textAlign={"center"}>
+                            Shop
+                        </Text>
                         <Icon as={AiFillShopping} h={8} w={8} />
                     </Stack>
                 </Link>

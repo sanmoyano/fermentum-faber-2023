@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 const DesktopNavBar = () => {
     return (
         <Stack
+            alignItems={"center"}
             color={"brand.200"}
             direction={"row"}
             display={{ base: "none", lg: "flex" }}
