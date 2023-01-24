@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <ChakraProvider theme={theme}>
             <BrowserRouter>
-                <Router />
+                <Router basename={"/"} />
             </BrowserRouter>
         </ChakraProvider>
     </React.StrictMode>,
