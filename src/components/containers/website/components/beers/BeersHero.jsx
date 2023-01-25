@@ -4,7 +4,7 @@ const BeersHero = () => {
     return (
         <StackBackground
             bgImage={
-                "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fportada_beers.png?alt=media&token=5bafdd9b-42b9-4bfd-9e68-27e13943422b"
+                "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fcervezas%2Fportada_beers.png?alt=media&token=de913964-1f89-48e2-83fd-e6902abf179c"
             }
         >
             <StackBackgroundInfo

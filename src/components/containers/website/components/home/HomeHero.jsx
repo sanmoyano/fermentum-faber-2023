@@ -11,7 +11,7 @@ const HomeHero = () => {
     return (
         <StackBackground
             bgImage={
-                "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fportada_home.jpg?alt=media&token=8eeae76e-49a3-4edc-b7aa-e96d8747821a"
+                "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2FDSC_0648.jpg?alt=media&token=288a52ad-902a-4b2a-8c17-f40d0a0f881f"
             }
         >
             {info.map((title, i) => (
