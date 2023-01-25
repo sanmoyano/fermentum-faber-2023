@@ -8,7 +8,7 @@ const sections = [
     },
     {
         title: "servicios comerciales",
-        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Fcomerciales.jpg?alt=media&token=8cbd8c99-b97b-4e00-952e-856c2689477d",
+        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Fcomerciales.jpg?alt=media&token=97b1dcc7-1da8-4206-8a05-db8ea239b55a",
         route: "/servicios",
     },
     {
@@ -18,7 +18,7 @@ const sections = [
     },
     {
         title: "contacto",
-        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Fportada_nosotros.jpg?alt=media&token=4860e384-74b5-4be4-9bf8-0a8849a65d45",
+        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Fportada_nosotros.jpg?alt=media&token=a9990ec8-4d3f-4ae1-845e-fbf9527c9dda",
         route: "https://wa.me/3513073541",
     },
     {
@@ -28,7 +28,7 @@ const sections = [
     },
     {
         title: "tienda online",
-        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2FDSC_0359.png?alt=media&token=bc38a772-02bf-4c8b-b893-9788aa047980",
+        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Ftienda.png?alt=media&token=ba7cb6cd-de1b-4dcb-81cb-eb1369b144bd",
         route: "https://pency.app/fermentum",
     },
 ];

@@ -9,7 +9,7 @@ const BeerList = () => {
                 "Rubia clásica. Liviana, suave y redonda. Se caracteriza por su perfil de maltas base, una fermentación limpia y un lupulado ligero que aporta bajo amargor y una sensación fresca.",
             ibu: "16",
             abv: "4.6%",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fcervezas%2F01_golden.png?alt=media&token=fed361e8-db9b-4f2d-b8a6-7e985d5b2fda",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fcervezas%2F01_golden.png?alt=media&token=c3466cdb-0653-44bd-ab62-0cd1459f738d",
         },
         {
             title: "Scotch",
@@ -65,7 +65,7 @@ const BeerList = () => {
                 "Una IPA con cuerpo, buena graduación alcohólica y equilibrada. Amargor intenso sin asperezas. Grandes cantidades de lúpulo aportan notas tropicales en sabor y aroma.",
             ibu: "54",
             abv: "6.5%",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fcervezas%2F08_american.png?alt=media&token=684cb52a-4b35-4516-8e8c-44183bbf0842",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fcervezas%2F08_american.png?alt=media&token=f28f2c1b-0144-4261-a7a0-e9a0e2b3aae1",
         },
         {
             title: "Juicy IPA",
