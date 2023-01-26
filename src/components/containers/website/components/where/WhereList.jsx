@@ -7,7 +7,7 @@ const WhereList = () => {
         {
             title: "general paz",
             route: "/donde/general-paz",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fgeneralpaz.jpg?alt=media&token=796923ea-dfcb-4424-9aeb-033113175544",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fgeneralpaz.jpg?alt=media&token=97bb1509-41a8-481f-acbf-5737d22ef05e",
         },
         {
             title: "alta cordoba",
@@ -22,7 +22,7 @@ const WhereList = () => {
         {
             title: "nueva córdoba",
             route: "/donde/nueva-cordoba",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fnuevacorodba.jpg?alt=media&token=fb16825c-0cf4-4989-805e-a34c48519a91",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fnuevacorodba.jpg?alt=media&token=f42cf943-4b24-4954-9fa6-1b832678f7e9",
         },
         {
             title: "guemes",
