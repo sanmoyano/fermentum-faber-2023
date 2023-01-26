@@ -10,7 +10,7 @@ const Footer = () => {
             width={"100%"}
         >
             <Text textAlign={"center"} textStyle={"body"}>
-                2021 - Fermentum Faber, Córdoba Argentina. Todos los derechos reservados. Disfrutar
+                2023 - Fermentum Faber, Córdoba Argentina. Todos los derechos reservados. Disfrutar
                 responsablemente. Prohibida su venta a menores de 18 años.
             </Text>
         </Stack>
