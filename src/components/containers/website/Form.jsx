@@ -24,12 +24,12 @@ const Form = () => {
                 <Text fontWeight={"700"} textStyle={"subHeading"}>
                     contacto
                 </Text>
-                <Text color={"brand.200"} fontFamily={"Acumin-Pro"}>
+                {/* <Text color={"brand.200"} fontFamily={"Acumin-Pro"}>
                     *Si te interesa vender nuestros productos contacte al{" "}
                     <Link href={"https://wa.me/3513713106"}>
                         <strong>(351)371-3106</strong>
                     </Link>
-                </Text>
+                </Text> */}
                 <Text color={"brand.200"} fontFamily={"Acumin-Pro"}>
                     *Si te interesa vender nuestros productos contacte al{" "}
                     <Link href={"https://wa.me/3513713106"}>
