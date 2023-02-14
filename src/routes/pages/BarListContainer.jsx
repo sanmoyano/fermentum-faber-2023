@@ -75,8 +75,8 @@ const BarListContainer = () => {
             ],
         },
         {
-            name: "cerro",
-            path: "/donde/cerro",
+            name: "zona norte",
+            path: "/donde/zona-norte",
             bares: [
                 {
                     name: "cuadrado",
@@ -117,6 +117,82 @@ const BarListContainer = () => {
                     ig: "/soybruxx",
                     igLink: "https://www.instagram.com/soybruxx/",
                     map: "https://www.google.com.ar/maps/place/Bruxx+Recta+-+Lomos+%26+Birra/@-31.3463545,-64.2844249,17z/data=!3m1!4b1!4m5!3m4!1s0x94329dc9b20f901f:0xc58b40778b12a4a2!8m2!3d-31.3463214!4d-64.2822288",
+                },
+                {
+                    name: "Mince",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fcerro%2Fmince.jpg?alt=media&token=e52549ea-dbd6-4821-ab05-74925ba8fe8d",
+                    direction: "Olga Orozco 3027",
+                    ig: "/mince.comerybeber",
+                    igLInk: "https://www.instagram.com/mince.comerybeber/",
+                    map: "https://www.google.com/maps/dir//mince/@-31.4109545,-64.2616532,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x943299f114a87dab:0x451f628312004df9!2m2!1d-64.2119445!2d-31.3582571",
+                },
+                {
+                    name: "Oats almacen",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fcerro%2Foats.jpg?alt=media&token=7cf26339-408c-417c-b81e-8b5be1f73053",
+                    direction: "Azor Grimaut 3130 L1 Plaza Juan Moreira",
+                    ig: "/oatsalmacen.brunch",
+                    igLink: "https://www.instagram.com/oatsalmacen.brunch/",
+                    map: "https://www.google.com/maps/dir//OATS+ALMACEN+NATURAL+%26+BRUNCH,+Azor+Grimaut,+Ciudad+de+C%C3%B3rdoba,+Provincia+de+C%C3%B3rdoba/@-31.3583575,-64.2484137,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9432991e1dd8ebf3:0x5963406185ca8b8!2m2!1d-64.2133942!2d-31.3583623",
+                },
+            ],
+        },
+        {
+            name: "centro",
+            path: "/donde/centro",
+            bares: [
+                {
+                    name: "Di Solito",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2FdiSolito.jpg?alt=media&token=43c1c42f-97d4-496e-a5eb-b10a406cdd8c",
+                    direction: "Santa Rosa 826",
+                    ig: "/disolito.oficial",
+                    igLink: "https://www.instagram.com/disolito.oficial/",
+                    map: "https://www.google.com/maps/dir//di+solito/@-31.427803,-64.1896381,14.47z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9432987de26a2629:0x45f2cd6eea4e545!2m2!1d-64.1938582!2d-31.4091705",
+                },
+                {
+                    name: "1967",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2F1967.jpg?alt=media&token=18095aaf-7afd-4fbf-99ff-96a498ddc3ea",
+                    direction: "Sta Fe 456",
+                    ig: "/1967birra",
+                    igLink: "https://www.instagram.com/1967birra/",
+                    map: "https://www.google.com.ar/maps/place/Cervecer%C3%ADa+1967/@-31.4056198,-64.2039866,17z/data=!3m1!4b1!4m5!3m4!1s0x9432991b56a300f5:0x9ecf1040f5f714d1!8m2!3d-31.4056181!4d-64.1995074",
+                },
+                {
+                    name: "la zete",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Flazete.jpg?alt=media&token=fe7b003f-f457-4a47-a1a4-7ab2b9f78488",
+                    direction: "Esquina Corrientes y Obispo Salguero",
+                    ig: "/lazete.arabe",
+                    igLink: "https://www.instagram.com/lazete.arabe/",
+                    map: "https://www.google.com.ar/maps/place/La+Zete+Comida+%C3%81rabe/@-31.421145,-64.1825427,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a29a61bed323:0xc66d46c434c9d0de!8m2!3d-31.421145!4d-64.180354",
+                },
+            ],
+        },
+        {
+            name: "zona sur",
+            path: "/donde/zona-sur",
+            bares: [
+                {
+                    name: "414 espacio",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fcuatrocatorce_zs.jpg?alt=media&token=86d36266-020c-43a8-8b38-bd204e9dfaf7",
+                    direction: "O'Higgins 5655",
+                    ig: "/cuatrocatorce_espacio",
+                    igLink: "https://www.instagram.com/cuatrocatorce_espacio/",
+                    map: "https://www.google.com.ar/maps/place/Cuatro+Catorce+Espacio/@-31.4779368,-64.1710957,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a3ce0ea53817:0xc85c39fda57ef2f2!8m2!3d-31.4779368!4d-64.168907",
+                },
+                {
+                    name: "parada 600",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fparada600.jpg?alt=media&token=dcb79029-9dc6-4203-860e-a6195b913726",
+                    direction: "Av. Armada Argentina 594",
+                    ig: "/600beer",
+                    igLink: "https://www.instagram.com/600beer/",
+                    map: "https://www.google.com.ar/maps/place/Parada+600/@-31.4569541,-64.2093996,19z/data=!4m6!3m5!1s0x9432a3cce1985667:0xe075af408bb7623c!4b1!8m2!3d-31.4570654!4d-64.2091253",
+                },
+                {
+                    name: "galowines",
+                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fgalowines.jpg?alt=media&token=13d8ff0b-d657-460d-bf7d-7b9eb370cc46",
+                    direction: "Copina 1375",
+                    ig: "/galowines",
+                    igLink: "https://www.instagram.com/galowines/",
+                    map: "https://www.google.com.ar/maps/place/Galo+Wines+-+Jard%C3%ADn/@-31.4507978,-64.1777614,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a3438ee6d0d3:0x4d86aa3bddf11482!8m2!3d-31.4507633!4d-64.1755552",
                 },
             ],
         },
@@ -224,7 +300,7 @@ const BarListContainer = () => {
             ],
         },
         {
-            name: "guemes",
+            name: "güemes",
             path: "/donde/guemes",
             bares: [
                 {
@@ -262,26 +338,9 @@ const BarListContainer = () => {
             ],
         },
         {
-            name: "otras zonas",
-            path: "/donde/otras-zonas",
+            name: "otras localidades",
+            path: "/donde/otras-localidades",
             bares: [
-                {
-                    name: "1967",
-                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2F1967.jpg?alt=media&token=18095aaf-7afd-4fbf-99ff-96a498ddc3ea",
-                    direction: "Sta Fe 456",
-                    ig: "/1967birra",
-                    igLink: "https://www.instagram.com/1967birra/",
-                    map: "https://www.google.com.ar/maps/place/Cervecer%C3%ADa+1967/@-31.4056198,-64.2039866,17z/data=!3m1!4b1!4m5!3m4!1s0x9432991b56a300f5:0x9ecf1040f5f714d1!8m2!3d-31.4056181!4d-64.1995074",
-                },
-
-                {
-                    name: "cuatro catorce espacio",
-                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fcuatrocatorce_zs.jpg?alt=media&token=86d36266-020c-43a8-8b38-bd204e9dfaf7",
-                    direction: "O'Higgins 5655",
-                    ig: "/cuatrocatorce_espacio",
-                    igLink: "https://www.instagram.com/cuatrocatorce_espacio/",
-                    map: "https://www.google.com.ar/maps/place/Cuatro+Catorce+Espacio/@-31.4779368,-64.1710957,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a3ce0ea53817:0xc85c39fda57ef2f2!8m2!3d-31.4779368!4d-64.168907",
-                },
                 {
                     name: "parador el cuadrado",
                     img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Felcuadradosierras.jpg?alt=media&token=906edb58-9994-4c96-bbaa-32c79e99411b",
@@ -298,14 +357,7 @@ const BarListContainer = () => {
                     igLink: "https://www.instagram.com/____encuentro/",
                     map: "https://www.google.com.ar/maps/place/Encuentro/@-33.109487,-64.3086023,17z/data=!4m5!3m4!1s0x95cdff8fc757e4f9:0xcc8d66bc24a09de8!8m2!3d-33.1101082!4d-64.3089824",
                 },
-                {
-                    name: "galowines",
-                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fgalowines.jpg?alt=media&token=13d8ff0b-d657-460d-bf7d-7b9eb370cc46",
-                    direction: "Copina 1375",
-                    ig: "/galowines",
-                    igLink: "https://www.instagram.com/galowines/",
-                    map: "https://www.google.com.ar/maps/place/Galo+Wines+-+Jard%C3%ADn/@-31.4507978,-64.1777614,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a3438ee6d0d3:0x4d86aa3bddf11482!8m2!3d-31.4507633!4d-64.1755552",
-                },
+
                 {
                     name: "infinito",
                     img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Finfinito.jpg?alt=media&token=c9133ed8-bc92-40b1-99a0-bed10d784f8f",
@@ -313,22 +365,6 @@ const BarListContainer = () => {
                     ig: "/infinitobar",
                     igLink: "https://www.instagram.com/infinitobar/",
                     map: "https://www.google.com.ar/maps/place/Infinito+Bar+De+Monta%C3%B1a/@-30.9957994,-64.4646311,16.95z/data=!4m5!3m4!1s0x942d85b6b066db1b:0xa8b97861892ccc9e!8m2!3d-30.9958095!4d-64.4601135",
-                },
-                {
-                    name: "la zete",
-                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Flazete.jpg?alt=media&token=fe7b003f-f457-4a47-a1a4-7ab2b9f78488",
-                    direction: "Esquina Corrientes y Obispo Salguero",
-                    ig: "/lazete.arabe",
-                    igLink: "https://www.instagram.com/lazete.arabe/",
-                    map: "https://www.google.com.ar/maps/place/La+Zete+Comida+%C3%81rabe/@-31.421145,-64.1825427,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a29a61bed323:0xc66d46c434c9d0de!8m2!3d-31.421145!4d-64.180354",
-                },
-                {
-                    name: "parada 600",
-                    img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotras%20zonas%2Fparada600.jpg?alt=media&token=dcb79029-9dc6-4203-860e-a6195b913726",
-                    direction: "Av. Armada Argentina 594",
-                    ig: "/600beer",
-                    igLink: "https://www.instagram.com/600beer/",
-                    map: "https://www.google.com.ar/maps/place/Parada+600/@-31.4569541,-64.2093996,19z/data=!4m6!3m5!1s0x9432a3cce1985667:0xe075af408bb7623c!4b1!8m2!3d-31.4570654!4d-64.2091253",
                 },
             ],
         },
@@ -344,17 +380,23 @@ const BarListContainer = () => {
             case "alta-cordoba":
                 setItemZona(zonas[1]);
                 break;
-            case "cerro":
+            case "zona-norte":
                 setItemZona(zonas[2]);
                 break;
-            case "nueva-cordoba":
+            case "centro":
                 setItemZona(zonas[3]);
                 break;
-            case "guemes":
+            case "zona-sur":
                 setItemZona(zonas[4]);
                 break;
-            case "otras-zonas":
+            case "nueva-cordoba":
                 setItemZona(zonas[5]);
+                break;
+            case "guemes":
+                setItemZona(zonas[6]);
+                break;
+            case "otras-localidades":
+                setItemZona(zonas[7]);
                 break;
         }
     }, [zona]);

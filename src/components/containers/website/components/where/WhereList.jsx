@@ -15,9 +15,19 @@ const WhereList = () => {
             img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Faltacordoba.jpg?alt=media&token=08088d64-033d-4181-af42-ea45ec580619",
         },
         {
-            title: "cerro",
-            route: "/donde/cerro",
+            title: "zona norte",
+            route: "/donde/zona-norte",
             img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fcerrolasrosas.jpg?alt=media&token=7306c3f9-e2bd-41db-b7f2-70423e98c6ee",
+        },
+        {
+            title: "centro",
+            route: "/donde/centro",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fcentro.jpg?alt=media&token=bae60211-7d4d-4864-a6ce-58abb061e7c3",
+        },
+        {
+            title: "zona sur",
+            route: "/donde/zona-sur",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fzona%20sur.jpg?alt=media&token=a2fe0dc4-fc87-410b-9757-00513f74b67b",
         },
         {
             title: "nueva córdoba",
@@ -25,14 +35,14 @@ const WhereList = () => {
             img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fnuevacorodba.jpg?alt=media&token=f42cf943-4b24-4954-9fa6-1b832678f7e9",
         },
         {
-            title: "guemes",
+            title: "güemes",
             route: "/donde/guemes",
             img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fbarrioguemes.jpg?alt=media&token=bbc8b6a6-a8d3-47bb-af4e-0cd090c8514d",
         },
         {
-            title: "otras zonas",
-            route: "/donde/otras-zonas",
-            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotraszonas.jpg?alt=media&token=1d336e25-228b-40a4-af77-d81ef4e3fbf6",
+            title: "otras localidades",
+            route: "/donde/otras-localidades",
+            img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Fbares%2Fotraszonas.jpeg?alt=media&token=69dcb7c1-6bf7-431b-a9d9-86ba6fcd70b4",
         },
     ];
 
