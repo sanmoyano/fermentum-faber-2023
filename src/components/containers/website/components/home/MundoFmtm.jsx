@@ -18,7 +18,7 @@ const sections = [
     },
     {
         title: "contacto",
-        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Fportada_nosotros.jpg?alt=media&token=a9990ec8-4d3f-4ae1-845e-fbf9527c9dda",
+        img: "https://firebasestorage.googleapis.com/v0/b/fermentumfabercervezas.appspot.com/o/2023%2Finicio%2Fportada_nosotros.jpg?alt=media&token=35804ff2-99ae-487d-905a-406a76c131ef",
         route: "https://wa.me/3513073541",
     },
     {
